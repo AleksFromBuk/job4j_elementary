@@ -20,10 +20,6 @@ public class Converter {
         System.out.println("140 rubles are 2. Test result : " + passed);
         //asdfadsf
 
-        in = 17;
-        expected = 0;
-        out = Converter.rubleToDollar(in);
-        passed = expected == out;
-        System.out.println("140 rubles are 2. Test result : " + passed);
+
     }
 }
