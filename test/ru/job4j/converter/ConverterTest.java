@@ -12,8 +12,6 @@ public class ConverterTest {
         int out = Converter.rubleToEuro(in);
         Assert.assertEquals(expected, out);
     }
-
-    @SuppressWarnings("checkstyle:MethodParamPad")
     @Test
     public void whenConvert17RblThen0Dollar() {
         int in = 17;
