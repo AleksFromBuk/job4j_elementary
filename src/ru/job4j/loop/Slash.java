@@ -11,16 +11,6 @@ public class Slash {
                 } else {
                     System.out.print(" ");
                 }
-
-                /*boolean left = ; /* добавить условие, по которому нужно определить ставить ли символ или нет. */
-                /*boolean right = ; /* добавить условие, что нужно ставить элемент в правый угол. */
-                /*if (left) {
-                    System.out.print("0");
-                } else if (right) {
-                    System.out.print("0");
-                } else {
-                    System.out.print(" ");
-                }*/
             }
             System.out.println();
         }
