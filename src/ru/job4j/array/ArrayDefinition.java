@@ -9,6 +9,6 @@ public class ArrayDefinition {
         System.out.println(ages.length);
         System.out.println(surnames.length);
         System.out.println(prices.length);
-
+        //for commit
     }
 }
