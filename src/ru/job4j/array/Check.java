@@ -1,0 +1,18 @@
+package ru.job4j.array;
+
+public class Check {
+    public static boolean mono(boolean[] data) {
+        boolean result = true;
+        for (int i = 1; i < data.length; i++) {
+            if (data[0] != data[i]) {
+                return false;
+            }
+        }
+        return result;
+    }
+
+    public static void main(String[] args) {
+        boolean[] data = {true, true, true};
+        System.out.println(mono(data));
+    }
+}
