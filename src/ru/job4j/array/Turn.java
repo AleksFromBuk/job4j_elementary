@@ -12,11 +12,11 @@ public class Turn {
         return array;
     }*/
     public static int[] back(int[] array) {
-        int size = array.length - 1;
-        for (int i = 0; i <= size / 2;  i++) {
+        //int size = array.length - 1;
+        for (int i = 0; i <  array.length / 2;  i++) {
             int tmp = array[i];
-            array[i] = array[size - i ];
-            array[size - i] = tmp;
+            array[i] = array[array.length - i - 1];
+            array[array.length - i - 1] = tmp;
         }
         return array;
     }
