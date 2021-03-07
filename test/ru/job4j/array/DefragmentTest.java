@@ -47,4 +47,12 @@ public class DefragmentTest {
             assertThat(compressed, is(expected));
         }
 
+        @Test
+        public void PlusOneMoreBug() {
+            String[] input = {"к", null, "сожалению", null, "снова", null, "залил", null, "поверх", null, "старого задания"};
+            String[] compressed = Defragment.compress(input);
+            String[] expected = {"к", "сожалению", "снова", "залил", "поверх", "старого задания", null, null, null,
+                    null, null};
+            assertThat(compressed, is(expected));
+        }
 }
