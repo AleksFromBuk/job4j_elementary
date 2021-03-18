@@ -29,32 +29,6 @@ public class Merge {
                 k++;
             }
         }
-
-        /*int id = 0;
-        if (left.length == 0 ||  right.length == 0) {
-            rsl = right.length == 0 ?  left : right;
-            return rsl;
-        }
-        for (int i = 0, j = 0; i < left.length; i++) {
-            for (; j < right.length; j++) {
-                if (left[i] >= right[j]) {
-                    rsl[id++] = right[j];
-                } else {
-                    rsl[id++] = left[i];
-                    if (i == left.length - 1) {
-                        while (id < left.length + right.length) {
-                            rsl[id++] = right[j++];
-                        }
-                    }
-                    break;
-                }
-            }
-            if (j == right.length) {
-                while (id < left.length + right.length) {
-                    rsl[id++] = left[i++];
-                }
-            }
-        }*/
         return rsl;
     }
 
